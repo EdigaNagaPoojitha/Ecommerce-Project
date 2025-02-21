@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="/cart.css">
+    <style>
+        
+      
+
+    </style>
+
+</head>
+
+<body >
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <div class=" navbar-logo me-auto" ><b>Eccomerce</b></div>
+      <a  href="/Login.html" class="icons" ><button class="icons-i i1"><i class="fa-solid fa-right-to-bracket " ></i></button></a>
+      <a  href="/Register.html" class="icons" ><button class="icons-i i2"> <i class="fa-solid fa-user-plus"></button></i></a>
+      <a  href="/Cart.html" class="icons"><button class="icons-i i3"> <i class="fa-solid fa-cart-shopping"></button></i></a>
+
+
+      <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-start" tabindex="1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header" style="height:90px; background-color:rgb(237, 237, 240)">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><B>Eccomerce</B></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body " id="navbar-nav">
+
+          <ul class="navbar-nav me-auto my-2 my-lg-0 " style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/product.html"> Product</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link " href="/About.html">
+              About
+              </a>
+              </li> <li class="nav-item">
+              <a class="nav-link" href="/Contact.html">Contact</a>
+            </li></ul>
+           
+      </div>
+      <div class="home-button-" style="position: absolute; right: 0%;" >
+        <a  href="/Login.html"> <button class="home-btn"><i class="fa-solid fa-right-to-bracket"></i> Login</button></a>
+        <a  href="/Register.html"> <button class="home-btn"><i class="fa-solid fa-user-plus"></i>Register</button></a>
+        <a  href="/Cart.html"> <button class="home-btn active"><i class="fa-solid fa-cart-shopping"></i> Cart(4)</button></a>
+       
+    </div>
+    </div>
+  </nav><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <div class="container " style="margin-top: 120px;">
+   
+    <div class="card " >
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item"><b>Item List</b></li>
+           
+          </ul>
+        <div class="card-body-cart ">
+          <div class="img-cart">
+            <img  src="/images/1.jpg" alt="" width="100px"> </div>
+          <span class="card-about" ><b>Fjallraven-Foldsack No-1 Backpack,Fits 15 Laptops</b></span>
+          <div class="button-cart">
+            <button class="button-cart1" >-</button>
+            <span class="button-cart12" >1</span>
+            <button class="button-cart1" >+</button>
+          </div>
+          <span class="price-cart"><b>1 x $109.95</b></span>
+        </div>
+        <ul class="list-group list-group-flush">
+            
+        <div class="card-body-cart ">
+          <div class="img-cart">
+            <img  src="/images/3.jpg" alt="" width="100px"> </div>
+          <span class="card-about" ><b>Men's Cotton Jacket</b></span>
+          <div class="button-cart">
+            <button class=button-cart1>-</button>
+            <span class="button-cart12" >1</span>
+            <button class=button-cart1>+</button>
+          </div>
+          <span class="price-cart"><b>1 x $55.99</b></span>
+        </div></li></ul>
+        <ul class="list-group list-group-flush">
+            
+        <div class="card-body-cart ">
+          <div class="img-cart">
+            <img  src="/images/5.jpg" alt="" width="100px"> </div>
+          <span class="card-about" ><b>John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Braclet</b></span>
+          <div class="button-cart">
+            <button class=button-cart1>-</button>
+            <span class="button-cart12" >1</span>
+            <button class=button-cart1>+</button>
+          </div>
+          <span class="price-cart"><b>1 x $695</b></span>
+        </div></li></ul>
+        <ul class="list-group list-group-flush">
+            
+        <div class="card-body-cart ">
+          <div class="img-cart">
+            <img  src="/images/6.jpg" alt="" width="100px"> </div>
+          <span class="card-about" ><b>Solid Gold Petite Micropave</b></span>
+          <div class="button-cart">
+            <button class=button-cart1>-</button>
+            <span class="button-cart12" >1</span>
+            <button class=button-cart1>+</button>
+          </div>
+          <span class="price-cart"><b>1 x $168</b></span>
+        </div></li></ul>
+        <ul class="list-group list-group-flush">
+           
+        <div class="card-body-cart ">
+          <div class="img-cart">
+            <img  src="/images/8.jpg" alt="" width="100px"> </div>
+          <span class="card-about" ><b>Pierced Owl Rose Gold Plated Stainless Steel Double</b></span>
+          <div class="button-cart">
+            <button class=button-cart1>-</button>
+            <span class="button-cart12" >1</span>
+            <button class=button-cart1>+</button>
+          </div>
+          <span class="price-cart"><b>1 x $10.99</b></span>
+        </div></li></ul>
+        <ul class="list-group list-group-flush">
+            
+        <div class="card-body-cart ">
+          <div class="img-cart">
+            <img  src="/images/9.jpg" alt="" width="100px"> </div>
+          <span class="card-about" ><b>Silicon Power 256GD SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5</b></span>
+          <div class="button-cart">
+            <button class=button-cart1>-</button>
+            <span class="button-cart12" >1</span>
+            <button class=button-cart1>+</button>
+          </div>
+          <span class="price-cart"><b>1 x $109</b></span>
+        </div></li></ul>
+        
+      </div>
+      <div class="card card2 " >
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item"><b>Order Summary</b></li>
+           
+          </ul>
+        <div class="card-body-cart-card2 ">
+          <div class="summary-1 ">Products (6)</div>
+          <div>$1149</div>
+          <div>Shipping</div>
+          <div>$30</div>
+          <div class="total-summary"><b>Total amount</b></div>
+          <div class="total-summary"><b>$1179</b></div>
+        </div>
+        <div class="summary-btn"><button class="summary-btn-1" >Go to Checkout</button></div>
+      </div>
+    </div>
+  </div>
+  <div >
+    
+    <div class="footer">Made with<i class="fas fa-heart" style="color: rgb(189, 5, 5)" ></i>by Poojitha with the help of<u> AchieversIT</u></div>
+  
+  </div>
+    
+</body>
+
+</html>
