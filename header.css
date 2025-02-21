@@ -12,10 +12,12 @@ i {
 footer {
   display: flex;
   justify-content: center !important;
-  margin-top: 30px;  
+  margin-top: 30px;
 }
 
-.footer{margin-top: 5%;}
+.footer {
+  margin-top: 5%;
+}
 
 hr {
   width: 90%;
@@ -33,7 +35,7 @@ hr {
 .nav {
   position: fixed;
   top: 0%;
- 
+margin: 0%;
 }
 
 @media (max-width: 320px) {
@@ -45,11 +47,25 @@ hr {
     height: 100px;
     background-color: rgb(245, 245, 248) !important;
     width: 100%;
+    margin-bottom: 0%;
   }
 
-  .icons{font-size: xx-small; margin-right: 1px;}
-  .i2{display: none;}
-  .icons-i{width: auto; height: auto; border: none; background-color: #fbfbfe; padding: 0;}
+  .icons {
+    font-size: xx-small;
+    margin-right: 1px;
+  }
+
+  .i2 {
+    display: none;
+  }
+
+  .icons-i {
+    width: auto;
+    height: auto;
+    border: none;
+    background-color: #fbfbfe;
+    padding: 0;
+  }
 
 
   nav {
@@ -78,7 +94,7 @@ hr {
     font-size: xx-small;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 10px;
-   
+
   }
 
   .h {
@@ -113,6 +129,7 @@ hr {
     margin-top: 0px;
     justify-content: space-around;
     background-color: #fbfbfe;
+    border: 1px thin black;
   }
 
   .card-text {
@@ -245,7 +262,12 @@ hr {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
   }
 
-  .footer{ justify-content: center; font-family: Verdana ; font-size: xx-small; width: 99%; }
+  .footer {
+    justify-content: center;
+    font-family: Verdana;
+    font-size: xx-small;
+    width: 99%;
+  }
 
 
 
@@ -273,7 +295,7 @@ hr {
   .navbar-logo {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 0.7cm;
-    padding-left: 9%;
+    padding-left: 5%;
     opacity: 2;
   }
 
@@ -283,7 +305,7 @@ hr {
     height: 400px;
     margin: 1px;
     border-radius: 10px;
-    margin-top: 0%;
+    margin-top: 100PX;
     align-content: center;
     color: #fff;
   }
@@ -292,7 +314,7 @@ hr {
     font-size: xx-small;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 10px;
-   
+
   }
 
   .h {
@@ -327,6 +349,7 @@ hr {
     margin-top: 0px;
     justify-content: space-around;
     background-color: #fbfbfe;
+    border: 1px thin black;
   }
 
   .card-text {
@@ -460,7 +483,12 @@ hr {
   }
 
 
-  .footer{ justify-content: center; font-family: Verdana ; font-size: xx-small; width: 99%; }
+  .footer {
+    justify-content: center;
+    font-family: Verdana;
+    font-size: xx-small;
+    width: 99%;
+  }
 
 
 }
@@ -508,7 +536,7 @@ hr {
     height: 400px;
     margin: 1px;
     border-radius: 10px;
-    margin-top: 0%;
+    margin-top: 100px;
     align-content: center;
     color: #fff;
   }
@@ -517,7 +545,7 @@ hr {
     font-size: x-small;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 10px;
-   
+
   }
 
   .h {
@@ -560,6 +588,7 @@ hr {
     margin-top: 0px;
     background-color: #fbfbfe;
     justify-content: space-around;
+    border: 1px thin black;
   }
 
   .card-text {
@@ -687,7 +716,12 @@ hr {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
   }
 
-  .footer{ justify-content: center; font-family: Verdana ; font-size: xx-small; width: 99%; }
+  .footer {
+    justify-content: center;
+    font-family: Verdana;
+    font-size: xx-small;
+    width: 99%;
+  }
 
 }
 
@@ -728,7 +762,7 @@ hr {
     height: 550px;
     margin: 4px;
     border-radius: 10px;
-    margin-top: 0%;
+    margin-top: 100px;
     align-content: center;
     color: #fff;
   }
@@ -737,7 +771,7 @@ hr {
     font-size: small;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 10px;
-    
+
   }
 
   .h {
@@ -779,6 +813,7 @@ hr {
     display: flex;
     margin-top: 0px;
     background-color: #fbfbfe;
+    border: 1px thin black;
   }
 
   .card-text {
@@ -953,7 +988,7 @@ hr {
     height: 550px;
     margin: 5px;
     border-radius: 10px;
-    margin-top: 0%;
+    margin-top: 100PX;
     align-content: center;
     color: #fff;
   }
@@ -962,7 +997,7 @@ hr {
     font-size: small;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 10px;
-  
+
   }
 
   .h {
@@ -998,6 +1033,7 @@ hr {
     display: flex;
     margin-top: 0px;
     background-color: #fbfbfe;
+    border: 1px thin black;
   }
 
   .card-text {
@@ -1184,7 +1220,7 @@ hr {
     height: 550px;
     margin: 5px;
     border-radius: 10px;
-    margin-top: 0%;
+    margin-top: 150px;
     align-content: center;
     color: #fff;
   }
@@ -1193,7 +1229,7 @@ hr {
     font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 10px;
- 
+
   }
 
   .h {
@@ -1264,6 +1300,8 @@ hr {
     display: flex;
     margin-top: 0px;
     margin-left: 33%;
+    background-color: #fbfbfe;
+    border: 1px thin black;
   }
 
   .card-body-2 {
@@ -1399,7 +1437,7 @@ hr {
     height: 550px;
     margin: 5px;
     border-radius: 10px;
-  
+    margin-top: 150px;
     align-content: center;
     color: #fff;
   }
@@ -1431,6 +1469,7 @@ hr {
     font-size: 13px;
     width: auto;
     background-color: #fff;
+    border: 1px thin black;
   }
 
   .product-cat:hover {
@@ -1444,6 +1483,8 @@ hr {
     display: flex;
     margin-top: 0px;
     margin-left: 33%;
+    background-color: #fff;
+    border: 1px thin black;
   }
 
   .card {
@@ -1650,7 +1691,7 @@ hr {
     height: 650px;
     margin: 10px;
     border-radius: 10px;
-    margin-top: 190px;
+    margin-top: 150px;
     align-content: center;
     color: #fff;
   }
@@ -1659,7 +1700,7 @@ hr {
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 10px;
- 
+
   }
 
   .h {
