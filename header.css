@@ -37,7 +37,7 @@ hr {
   top: 0%;
 margin: 0%;
 }
-
+/* Screensize between 0px to 320px */
 @media (max-width: 320px) {
   .home-btn {
     display: none;
@@ -272,7 +272,7 @@ margin: 0%;
 
 
 }
-
+/* screen-size between 321px t0 375px */
 @media (min-width: 321px) and (max-width: 375px) {
   .home-btn {
     display: none;
@@ -494,7 +494,7 @@ margin: 0%;
 }
 
 
-
+/* screen-size between 426px to 376px */
 @media (max-width: 426px) and (min-width:376px) {
   .home-btn {
     display: none;
@@ -725,6 +725,7 @@ margin: 0%;
 
 }
 
+/* screen-size between 768px to 426px */
 @media (max-width: 768px) and (min-width:426px) {
   .home-btn {
     display: none;
@@ -950,7 +951,7 @@ margin: 0%;
 
 
 }
-
+/* screen-size between 768px to 991px */
 @media (max-width: 991px) and (min-width:769px) {
   .home-btn {
     display: none;
@@ -1182,7 +1183,7 @@ margin: 0%;
     grid-template-columns: repeat(3, 1fr);
   }
 }
-
+/* screen-size between 1025px to 992px */
 @media screen and (max-width:1025px) and (min-width: 992px) {
   .navbar {
     height: 150px;
